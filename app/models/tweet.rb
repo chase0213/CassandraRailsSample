@@ -6,4 +6,5 @@ class Tweet
   column :body, :text
   column :retweeted, :int
   column :favarited, :int
+  set :reply_to, :text
 end
